@@ -25,3 +25,8 @@
   - 入口页
 
 * package.json
+
+## 开始
+1. npm install
+2. npm run build 
+3. 打开index.html
