@@ -1,0 +1,13 @@
+{
+  "name": "sass-es6",
+  "description": "saaa es6",
+  "author": "Evelyn",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "requirejs": "^2.3.5"
+  },
+  "scripts": {
+    "build": "babel es6 -d js && compass compile"
+  }
+}

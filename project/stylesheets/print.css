@@ -1,0 +1,24 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/print.scss */
+.wrap {
+  width: 100%;
+  height: 400px;
+  background-color: #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 13, ../sass/print.scss */
+.wrap .header {
+  width: 100%;
+  height: 30px;
+  background-color: #0e0e0e;
+}
+/* line 18, ../sass/print.scss */
+.wrap .footer {
+  width: 100%;
+  height: 20px;
+  background-color: #0e0f46;
+}
